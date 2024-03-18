@@ -1,0 +1,7 @@
+package random;
+//Swap two numbers
+public class SwapNumber {
+	public static void main(String[] args) {
+		System.out.println("Hello");
+	}
+}

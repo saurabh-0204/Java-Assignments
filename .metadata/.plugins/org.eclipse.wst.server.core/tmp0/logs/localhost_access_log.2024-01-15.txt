@@ -1,0 +1,12 @@
+127.0.0.1 - - [15/Jan/2024:08:10:04 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [15/Jan/2024:08:10:06 +0530] "GET /SpringMVC/ HTTP/1.1" 200 52
+0:0:0:0:0:0:0:1 - - [15/Jan/2024:08:10:27 +0530] "GET /SpringMVC/factors?number=36 HTTP/1.1" 500 3653
+0:0:0:0:0:0:0:1 - - [15/Jan/2024:08:11:02 +0530] "GET /SpringMVC/factors?number=36 HTTP/1.1" 500 3538
+0:0:0:0:0:0:0:1 - - [15/Jan/2024:08:11:04 +0530] "GET /SpringMVC/factors?number=36 HTTP/1.1" 500 5945
+0:0:0:0:0:0:0:1 - - [15/Jan/2024:08:11:05 +0530] "GET /SpringMVC/factors?number=36 HTTP/1.1" 500 5945
+127.0.0.1 - - [15/Jan/2024:08:13:36 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [15/Jan/2024:08:13:37 +0530] "GET /SpringMVC/ HTTP/1.1" 200 52
+0:0:0:0:0:0:0:1 - - [15/Jan/2024:08:13:53 +0530] "GET /SpringMVC/factors?number=36 HTTP/1.1" 500 3538
+0:0:0:0:0:0:0:1 - - [15/Jan/2024:08:14:32 +0530] "GET /SpringMVC/factors?number=36 HTTP/1.1" 200 363
+0:0:0:0:0:0:0:1 - - [15/Jan/2024:08:15:18 +0530] "GET /SpringMVC/factors?number=36 HTTP/1.1" 200 363
+0:0:0:0:0:0:0:1 - - [15/Jan/2024:08:15:19 +0530] "GET /SpringMVC/factors?number=36 HTTP/1.1" 200 363

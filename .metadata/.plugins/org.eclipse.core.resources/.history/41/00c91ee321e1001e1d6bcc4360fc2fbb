@@ -1,0 +1,21 @@
+package string;
+
+import java.util.Scanner;
+
+public class ReverseString {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		String s = scanner.next();
+
+		System.out.print(revrse(s));
+	}
+
+	private static String revrse(String s) {
+		StringBuilder sb = new StringBuilder();
+		char[] strs = s.toCharArray();
+		for (char c : strs) {
+			sb.append(c);
+		}
+		return sb.toString();
+	}
+}

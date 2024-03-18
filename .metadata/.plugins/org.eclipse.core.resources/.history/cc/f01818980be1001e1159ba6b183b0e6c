@@ -1,0 +1,16 @@
+package random;
+
+//Swap two numbers without third variables
+public class SwapNumber {
+	public static void main(String[] args) {
+
+	int a=100;
+	int b=80;
+	System.out.println("Before swapping "+a+"  : "+ b);
+
+	b=b-a;
+	a=b+a;
+	b=a-b;
+	System.out.println("Before swapping "+a+"  : "+ b);
+	}
+}
