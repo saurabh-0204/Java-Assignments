@@ -1,0 +1,7 @@
+class Lion extends Animal 
+{
+	public static void sound() 
+	{
+		System.out.println("Roar Roar...!");
+	}
+}

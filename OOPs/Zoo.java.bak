@@ -1,0 +1,13 @@
+class Zoo 
+{
+	public static void main(String[] args) 
+	{
+		Animal a=new Animal();// Type Matching
+		a.sound();
+		System.out.println("___________________________");
+		Animal a1=new Cat();//up Casting
+
+		Cat c1=(Cat)a1; //Down Casting
+		c1.sound();
+	}
+}
